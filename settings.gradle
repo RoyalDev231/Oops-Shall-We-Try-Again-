@@ -12,3 +12,5 @@ plugins {
 
 rootProject.name = 'oops-shall-we-try-again-java-template'
 include('app')
+
+rootProject.name = "input-validator" 
