@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.InputValidatorTest" tests="6" skipped="0" failures="1" errors="0" timestamp="2025-09-04T02:15:33" hostname="DEVSPC" time="0.005">
+  <properties/>
+  <testcase name="handlesNullInputLineAsInvalidAndReprompts()" classname="org.example.InputValidatorTest" time="0.002">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at java.base/java.util.ArrayDeque.addLast(ArrayDeque.java:301)
+	at java.base/java.util.ArrayDeque.add(ArrayDeque.java:492)
+	at org.example.InputValidatorTest$IOHarness.addInputs(InputValidatorTest.java:24)
+	at org.example.InputValidatorTest.handlesNullInputLineAsInvalidAndReprompts(InputValidatorTest.java:85)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="rejectsNonNumericThenAcceptsValid()" classname="org.example.InputValidatorTest" time="0.001"/>
+  <testcase name="acceptsBoundaryValues()" classname="org.example.InputValidatorTest" time="0.0"/>
+  <testcase name="rejectsOutOfRangeThenAcceptsValid()" classname="org.example.InputValidatorTest" time="0.0"/>
+  <testcase name="acceptsValidOnFirstTry()" classname="org.example.InputValidatorTest" time="0.0"/>
+  <testcase name="throwsWhenLowerGreaterThanUpper()" classname="org.example.InputValidatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
